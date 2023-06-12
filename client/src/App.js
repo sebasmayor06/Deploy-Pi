@@ -4,7 +4,10 @@ import Landing from "./views/Landing/Landing";
 import Home from "./views/Home/Home"
 import About from "./views/About/About";
 import Create from "./views/Create/Create";
-import Detail from "./views/Detail/Detail";
+import Detail from "./views/Detail/Detail"; 
+import axios from "axios"
+
+axios.defaults.baseURL= "http://localhost:3001"
 
 function App() {
   return (

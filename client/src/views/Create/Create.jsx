@@ -86,7 +86,7 @@ const Create = () => {
       setValidador("One or more genres required");
     } else {
       
-      const postGame = await axios.post("http://localhost:3001/videogames", valor)
+      const postGame = await axios.post("/videogames", valor)
       
       setValidador("");
       setvalor({

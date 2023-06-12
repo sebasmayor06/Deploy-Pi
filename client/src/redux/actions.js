@@ -16,7 +16,7 @@ export const DELETE_GAME ="DELETE_GAME"
 
 export const getAllGames = () => {
   return async function (dispatch) {
-    const URL_BASE = "http://localhost:3001/videogames";
+    const URL_BASE = "/videogames";
     const peticion = await axios.get(URL_BASE);
 
     return dispatch({ type: GET_VIDEO_GAMES, payload: peticion.data });
@@ -25,7 +25,7 @@ export const getAllGames = () => {
 
 export const getGenres = () => {
   return async function (dispatch) {
-    const URL_BASE = "http://localhost:3001/genres";
+    const URL_BASE = "/genres";
     const peticionGenres = await axios.get(URL_BASE);
 
     const genres = peticionGenres.data.map((e) => e.name);
@@ -38,7 +38,7 @@ export const getGenres = () => {
 
 export const removeGame = (detailId) => {
   return async function (dispatch){
-  await axios.delete(`http://localhost:3001/videogames/${detailId}`)
+  await axios.delete(`/videogames/${detailId}`)
  
   return dispatch({type:DELETE_GAME , payload: detailId})
 }
@@ -53,7 +53,7 @@ export const resetSelect = () => {
 export const searchBar = (name) => {
   return async function (dispatch) {
     const game = await axios.get(
-      `http://localhost:3001/videogames?name=${name}`
+      `/videogames?name=${name}`
     );
    
     dispatch({ type: SEARCH_BAR, payload: game.data });
@@ -63,7 +63,7 @@ export const searchBar = (name) => {
 //para el detail
 export const getById = (id) => {
   return async function (dispatch) {
-    const getId = await axios.get(`http://localhost:3001/videogames/${id}`);
+    const getId = await axios.get(`/videogames/${id}`);
 
     dispatch({ type: GET_ID, payload: getId.data });
   };
