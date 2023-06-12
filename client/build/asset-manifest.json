@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65ab0c40.chunk.css",
+    "main.js": "/static/js/main.c6b69402.chunk.js",
+    "main.js.map": "/static/js/main.c6b69402.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.239aceb2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.239aceb2.js.map",
+    "static/js/2.3a0315d8.chunk.js": "/static/js/2.3a0315d8.chunk.js",
+    "static/js/2.3a0315d8.chunk.js.map": "/static/js/2.3a0315d8.chunk.js.map",
+    "static/js/3.949c8390.chunk.js": "/static/js/3.949c8390.chunk.js",
+    "static/js/3.949c8390.chunk.js.map": "/static/js/3.949c8390.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.65ab0c40.chunk.css.map": "/static/css/main.65ab0c40.chunk.css.map",
+    "static/js/2.3a0315d8.chunk.js.LICENSE.txt": "/static/js/2.3a0315d8.chunk.js.LICENSE.txt",
+    "static/media/github.ff264807.png": "/static/media/github.ff264807.png",
+    "static/media/instagram3.f34aa8a5.png": "/static/media/instagram3.f34aa8a5.png",
+    "static/media/About.module.css": "/static/media/yo.ba944314.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.239aceb2.js",
+    "static/js/2.3a0315d8.chunk.js",
+    "static/css/main.65ab0c40.chunk.css",
+    "static/js/main.c6b69402.chunk.js"
+  ]
+}
