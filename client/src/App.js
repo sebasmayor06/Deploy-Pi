@@ -7,7 +7,7 @@ import Create from "./views/Create/Create";
 import Detail from "./views/Detail/Detail"; 
 import axios from "axios"
 
-axios.defaults.baseURL= "https://deploy-pi-blond.vercel.app"
+axios.defaults.baseURL= "https://deploy-pi-production-a192.up.railway.app"
 
 function App() {
   return (
